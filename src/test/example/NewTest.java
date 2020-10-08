@@ -19,7 +19,7 @@ public class NewTest {
   public void beforeTest() {
 	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\ACLIFFOR\\Desktop\\SLENIUM\\chromedriver_win32\\chromedriver.exe");	
 	  driver = new ChromeDriver();
-	  driver.sleep (4000)
+	  driver.sleep (10000)
   }
 
   @AfterTest
