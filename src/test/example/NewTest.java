@@ -1,4 +1,4 @@
-package example;
+https://github.com/Jenkins-pipe/selenium.gitpackage example;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,7 +11,8 @@ public class NewTest {
 	        private WebDriver driver;	 
                 @Test
   public void f() {
-          driver.get("https://www.cgi.com/us/en-us/federal");  
+          driver.get("https://www.cgi.com/us/en-us/federal");
+	  driver.manage().window().maximize();
           String title = driver.getTitle();				 
           Assert.assertTrue(title.contains("CGI Federal"));      	
   }
